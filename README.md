@@ -1,9 +1,9 @@
 # nFactorial-Ai-Cup-2024
 Fork this repository and build nFactorial Ai Cup 2024 projects 
 
-## < Your Name >
+## < Beknur >
 
-## < Your App's Name >
+## < SAT Ai >
 
 ## < Your App's description, technical considerations, etc. >
 
