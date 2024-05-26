@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file
+from flask import Flask,render_template, request, jsonify, send_file
 from flask_cors import CORS
 import openai
 import json
@@ -7,12 +7,18 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import os
 from dotenv import load_dotenv
+from flask_frozen import Freezer
 
 #
 load_dotenv()
 
 app = Flask(__name__)
+freezer = Freezer(app)
 CORS(app)
+@app.route('/')
+def index():
+    return render_template('index.html')
+
  
 # Retrieve the API key from environment variables
 openai.api_key = os.getenv("OPENAI_API_KEY")

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT AI</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>SAT AI</h1>
+    <form id="generateForm">
+        <div class="select-container">
+            <div class="select-box">
+                <label for="sections">Sections:</label>
+                <select id="sections" name="sections">
+                    <option value="math">Math</option>
+                    <option value="verbal">Verbal</option>
+                </select>
+            </div>
+            <div class="select-box">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" name="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit">Generate Test</button>
+    </form>
+    <button id="generatePDF">Download PDF</button>
+    <button id="toggleAnswers">Show/Hide Answers</button>
+    <div id="questions-output"></div>
+</div>
+<footer>
+    &copy; 2024 SAT AI. All rights reserved.
+</footer>
+<script src="../static/script.js"></script>
+</body>
+</html>
