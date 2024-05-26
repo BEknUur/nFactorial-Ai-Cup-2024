@@ -1,11 +1,11 @@
 # nFactorial-Ai-Cup-2024
-Fork this repository and build nFactorial Ai Cup 2024 projects 
+
 
 ## < Beknur >
 
 ## < SAT Ai >
 
-## < Your App's description, technical considerations, etc. >
+## < App is about to make tests for SAT exam as the Math and Verbal Part also divide into 3 parts as easy medium and hard person can choose what kind of difficulty he/she will solve and also can get the pdf format of it  >
 
 
 ## Typeform to submit:
